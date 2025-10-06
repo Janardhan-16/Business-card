@@ -1,0 +1,23 @@
+.main{
+    background-color: #deedf8;
+    margin: 30px;
+    height: 250px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 10px solid #d8cefe;
+}
+
+img{
+    height: 200px;
+    margin-top: 20px;
+}
+
+.profile{
+    height: 200px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(4, 4, 50);
+    font-size: 18px;
+    text-align: center;
+}
