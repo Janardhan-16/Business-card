@@ -1,17 +1,17 @@
-/* Reset */
-* {
+/* Reset and height fix */
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Make body a flex container and center content */
+/* Centering body */
 body {
-  min-height: 100vh;           /* full viewport height */
   display: flex;
-  justify-content: center;     /* center horizontally */
-  align-items: center;         /* center vertically */
-  background-color: #f0f4fa;   /* nice background */
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f4fa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -22,10 +22,11 @@ body {
   width: 600px;
   display: flex;
   justify-content: space-around;
-  align-items: center;         /* vertical centering inside the card */
+  align-items: center;
   border-bottom: 10px solid #d8cefe;
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 0;
 }
 
 /* Image styling */
@@ -35,7 +36,7 @@ img {
   object-fit: cover;
 }
 
-/* Profile text styling */
+/* Profile styling */
 .profile {
   text-align: center;
   color: rgb(4, 4, 50);
@@ -55,4 +56,3 @@ img {
   margin-top: 8px;
   color: #666;
 }
-
